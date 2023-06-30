@@ -1,0 +1,86 @@
+:root {
+  --color1: #EFE2DB;
+  --color2: #182739;
+  --color3: #f49738;
+  --color4: #fdf7f7;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: --color2;
+  background-color: var(--color1);
+  background-image: linear-gradient(white 1px, transparent 0), linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 30px 30px;
+}
+
+h1, h2, p, ul {
+  margin: 0 !important;
+}
+
+.cv-border {
+  border: var(--color2) 2px solid;
+}
+
+.cv-bg-color{
+  background-color: var(--color4);
+}
+
+.box-shadow {
+  box-shadow: -5px 10px 0px 0px var(--color2);
+}
+
+.cv-border-radius {
+  border-radius: 50px;
+}
+
+.pin {
+  background: url(/pictures/pin.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.about-me-image {
+  background-color: var(--color3);
+  border-right: var(--color2) 2px solid;
+}
+
+.little-circle {
+  background: url(/pictures/circle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.stars {
+  background: url(/pictures/stars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+}
+
+.contact-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  color: var(--color2);
+}
+
+.skills-list li,
+.tools-list li,
+.languages-p li {
+  background: url(/pictures/success.png);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+}
