@@ -34,7 +34,7 @@ h1, h2, p, ul {
 }
 
 .pin {
-  background: url(/pictures/pin.png);
+  background: url(../pictures/pin.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 30px;
@@ -47,7 +47,7 @@ h1, h2, p, ul {
 }
 
 .little-circle {
-  background: url(/pictures/circle.png);
+  background: url(../pictures/circle.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100px;
@@ -55,7 +55,7 @@ h1, h2, p, ul {
 }
 
 .stars {
-  background: url(/pictures/stars.png);
+  background: url(../pictures/stars.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 60px;
@@ -78,7 +78,7 @@ h1, h2, p, ul {
 .skills-list li,
 .tools-list li,
 .languages-p li {
-  background: url(/pictures/success.png);
+  background: url(../pictures/success.png);
   background-repeat: no-repeat;
   background-size: 25px 25px;
   padding-left: 40px;
